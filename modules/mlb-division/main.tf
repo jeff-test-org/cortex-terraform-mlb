@@ -33,6 +33,8 @@ resource "cortex_catalog_entity" "teams" {
     league   = each.value.league
     division = var.division
     year     = var.year
+    wins     = each.value.wins
+    losses   = each.value.losses
   })
 
   depends_on = [cortex_catalog_entity.division]

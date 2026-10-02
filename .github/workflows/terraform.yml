@@ -1,0 +1,98 @@
+name: Terraform
+
+# Manual dispatch only — choose plan or apply at run time.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Terraform action"
+        required: true
+        default: plan
+        type: choice
+        options:
+          - plan
+          - apply
+
+# -----------------------------------------------------------------------------
+# To run terraform plan automatically on every pull request, replace the
+# 'on:' block above with the following:
+#
+# on:
+#   workflow_dispatch:
+#     inputs:
+#       action:
+#         description: "Terraform action"
+#         required: true
+#         default: plan
+#         type: choice
+#         options:
+#           - plan
+#           - apply
+#   pull_request:
+#     branches: [main]
+#     paths: ["**.tf", ".github/workflows/terraform.yml"]
+#
+# Then gate the apply step on manual dispatch only:
+#   if: github.event_name == 'workflow_dispatch' && inputs.action == 'apply'
+# -----------------------------------------------------------------------------
+
+jobs:
+  terraform:
+    name: Terraform ${{ inputs.action }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      # The published cortexapps/cortex provider does not yet include the
+      # cortex_catalog resource. Build it locally from the feature branch.
+      # This step can be removed once the resource is merged and released.
+      - name: Build cortex provider from feature/catalog-resource
+        run: |
+          git clone --branch feature/catalog-resource --depth 1 \
+            https://github.com/cortexapps/terraform-provider-cortex.git \
+            /tmp/terraform-provider-cortex
+          cd /tmp/terraform-provider-cortex
+          go build -o terraform-provider-cortex .
+
+      # Point Terraform at the locally built binary instead of the registry.
+      - name: Configure Terraform dev overrides
+        run: |
+          cat > ~/.terraformrc <<'EOF'
+          provider_installation {
+            dev_overrides {
+              "cortexapps/cortex" = "/tmp/terraform-provider-cortex"
+            }
+            direct {}
+          }
+          EOF
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      # NOTE: This workflow uses local state, which is ephemeral per run.
+      # For a persistent apply workflow, configure a remote backend first:
+      #   HCP Terraform: add a 'cloud {}' block to main.tf and set
+      #                  TF_TOKEN_app_terraform_io in repository secrets.
+      #   S3:            add a 'backend "s3" {}' block and AWS credentials.
+      - name: Terraform Init
+        run: terraform init -input=false
+        env:
+          TF_VAR_cortex_api_key: ${{ secrets.CORTEX_API_KEY }}
+
+      - name: Terraform Plan
+        run: terraform plan -no-color -input=false
+        env:
+          TF_VAR_cortex_api_key: ${{ secrets.CORTEX_API_KEY }}
+
+      - name: Terraform Apply
+        if: inputs.action == 'apply'
+        run: terraform apply -auto-approve -no-color -input=false
+        env:
+          TF_VAR_cortex_api_key: ${{ secrets.CORTEX_API_KEY }}

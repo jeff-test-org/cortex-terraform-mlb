@@ -21,5 +21,7 @@ variable "teams" {
     city     = string
     ballpark = string
     league   = string
+    wins     = number
+    losses   = number
   }))
 }
