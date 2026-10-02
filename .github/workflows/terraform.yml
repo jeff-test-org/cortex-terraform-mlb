@@ -56,7 +56,7 @@ jobs:
       - name: Build cortex provider from feature/catalog-resource
         run: |
           git clone --branch feature/catalog-resource --depth 1 \
-            https://github.com/cortexapps/terraform-provider-cortex.git \
+            https://github.com/jeff-test-org/terraform-provider-cortex.git \
             /tmp/terraform-provider-cortex
           cd /tmp/terraform-provider-cortex
           go build -o terraform-provider-cortex .
