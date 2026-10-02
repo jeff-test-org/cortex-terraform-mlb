@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "cortex" {
-  api_key  = var.cortex_api_key
-  base_url = var.cortex_base_url
+  token         = var.cortex_api_key
+  base_api_url  = var.cortex_base_url
 }
