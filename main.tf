@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "cortex-jeff-schnitter"
+    workspaces {
+      name = "cortex-terraform-mlb"
+    }
+  }
+
   required_providers {
     cortex = {
       source  = "cortexapps/cortex"
