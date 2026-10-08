@@ -1,6 +1,6 @@
 resource "cortex_relationship_type" "mlb_to_leader" {
   tag                   = "mlb-to-leader"
-  name                  = "MLB Season to Statistical Leader"
+  name                  = "Leaders"
   description           = "Links an MLB season entity to its statistical leader boards."
   allow_cycles          = false
   is_single_source      = false
