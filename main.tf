@@ -1,10 +1,12 @@
 terraform {
-  cloud {
-    organization = "cortex-jeff-schnitter"
-    workspaces {
-      name = "cortex-terraform-mlb"
-    }
-  }
+  # cloud {
+  #   organization = "cortex-jeff-schnitter"
+  #   workspaces {
+  #     name = "cortex-terraform-mlb"
+  #   }
+  # }
+
+  backend "local" {}
 
   required_providers {
     cortex = {
