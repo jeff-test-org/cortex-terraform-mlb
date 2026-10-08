@@ -234,16 +234,16 @@ resource "cortex_catalog_entity" "nl_leader_avg" {
     season   = 2026
     league   = "NL"
     leaders = [
-      { rank = 1, player = "Victor Mederos", team = "Atlanta Braves", value = "1.000" },
-      { rank = 2, player = "Jihwan Bae", team = "Milwaukee Brewers", value = ".500" },
-      { rank = 2, player = "Jair Camargo", team = "Atlanta Braves", value = ".500" },
-      { rank = 2, player = "Vimael Machin", team = "Colorado Rockies", value = ".500" },
-      { rank = 5, player = "Justin Dean", team = "Chicago Cubs", value = ".375" },
-      { rank = 6, player = "Jose Azocar", team = "Atlanta Braves", value = ".353" },
-      { rank = 7, player = "Bo Davidson", team = "San Francisco Giants", value = ".350" },
-      { rank = 8, player = "Tyler Black", team = "Milwaukee Brewers", value = ".333" },
-      { rank = 8, player = "Gage Workman", team = "San Diego Padres", value = ".333" },
-      { rank = 10, player = "Josue De Paula", team = "Los Angeles Dodgers", value = ".323" },
+      { rank = 1, player = "Gabriel Moreno", team = "Arizona Diamondbacks", value = ".311" },
+      { rank = 2, player = "Luis Arraez", team = "Philadelphia Phillies", value = ".310" },
+      { rank = 3, player = "Otto Lopez", team = "Miami Marlins", value = ".305" },
+      { rank = 4, player = "Nick Gonzales", team = "Pittsburgh Pirates", value = ".303" },
+      { rank = 5, player = "TJ Rumfield", team = "Colorado Rockies", value = ".300" },
+      { rank = 6, player = "Michael Harris II", team = "Atlanta Braves", value = ".294" },
+      { rank = 7, player = "Jackson Chourio", team = "Milwaukee Brewers", value = ".291" },
+      { rank = 8, player = "Jake McCarthy", team = "Colorado Rockies", value = ".291" },
+      { rank = 9, player = "Fernando Tatis Jr.", team = "San Diego Padres", value = ".289" },
+      { rank = 10, player = "Freddie Freeman", team = "Los Angeles Dodgers", value = ".288" },
     ]
   })
 
