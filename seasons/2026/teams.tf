@@ -1,33 +1,58 @@
-# 2026 Athletics Coaching Staff — Cortex Team Entity
+# 2026 Athletics Active Roster — Cortex Team Entity
 # Data sourced from MLB Stats API (team ID 133):
-#   https://statsapi.mlb.com/api/v1/teams/133?season=2026
-#   https://statsapi.mlb.com/api/v1/teams/133/coaches?season=2026
-resource "cortex_catalog_entity" "athletics_coaching_staff" {
-  tag         = "athletics-coaching-staff-2026"
-  name        = "2026 Athletics Coaching Staff"
-  description = "Coaching staff for the 2026 Athletics (Sutter Health Park, Sacramento)."
+#   https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=active&season=2026
+resource "cortex_catalog_entity" "athletics_roster" {
+  tag         = "athletics-roster-2026"
+  name        = "2026 Athletics Roster"
+  description = "Active roster for the 2026 Athletics (Sutter Health Park, Sacramento)."
   type        = "team"
   groups      = ["mlb-team-2026"]
 
   metadata = jsonencode({
     mlb_team_id  = 133
     abbreviation = "ATH"
-    venue        = "Sutter Health Park"
-    location     = "Sacramento, CA"
-    league       = "American League"
-    division     = "American League West"
-    coaching_staff = [
-      { name = "Mark Kotsay",      title = "Manager",                             jersey = "7"  },
-      { name = "Darren Bush",      title = "Bench Coach and Director of Hitting", jersey = "51" },
-      { name = "Mike Aldrete",     title = "Hitting Coach",                       jersey = "18" },
-      { name = "Chris Cron",       title = "Hitting Coach",                       jersey = "41" },
-      { name = "Dan Hubbs",        title = "Interim Pitching Coach",              jersey = "71" },
-      { name = "Scott Emerson",    title = "Pitching Coach",                      jersey = "14" },
-      { name = "Ryan Christenson", title = "First Base Coach",                    jersey = "28" },
-      { name = "Bobby Crosby",     title = "Third Base Coach",                    jersey = "8"  },
-      { name = "Javy Guerra",      title = "Bullpen Coach",                       jersey = "88" },
-      { name = "Ramon Hernandez",  title = "Major League Coach and Interpreter",  jersey = "55" },
-      { name = "Marcus Jensen",    title = "Quality Control Coach",               jersey = "72" },
+    season       = 2026
+    roster = [
+      { name = "Shea Langeliers",       jersey = "23", position = "C"  },
+      { name = "Jonah Heim",            jersey = "15", position = "C"  },
+      { name = "Brian Serven",          jersey = "10", position = "C"  },
+      { name = "Tommy White",           jersey = "47", position = "1B" },
+      { name = "Jeff McNeil",           jersey = "22", position = "2B" },
+      { name = "Donovan Walton",        jersey = "29", position = "2B" },
+      { name = "Michael Stefanic",      jersey = "17", position = "2B" },
+      { name = "Zack Gelof",            jersey = "20", position = "3B" },
+      { name = "Max Muncy",             jersey = "3",  position = "3B" },
+      { name = "Joshua Kuroda-Grauer",  jersey = "44", position = "3B" },
+      { name = "Alika Williams",        jersey = "12", position = "SS" },
+      { name = "Darell Hernaiz",        jersey = "2",  position = "SS" },
+      { name = "Lawrence Butler",       jersey = "4",  position = "RF" },
+      { name = "Denzel Clarke",         jersey = "1",  position = "CF" },
+      { name = "Henry Bolte",           jersey = "33", position = "CF" },
+      { name = "Carlos Cortes",         jersey = "26", position = "RF" },
+      { name = "Johnathan Rodriguez",   jersey = "",   position = "RF" },
+      { name = "Jeffrey Springs",       jersey = "59", position = "P"  },
+      { name = "Joey Estes",            jersey = "68", position = "P"  },
+      { name = "Drew Rom",              jersey = "39", position = "P"  },
+      { name = "Hogan Harris",          jersey = "36", position = "P"  },
+      { name = "Brady Basso",           jersey = "66", position = "P"  },
+      { name = "Joe Rock",              jersey = "30", position = "P"  },
+      { name = "Jacob Lopez",           jersey = "57", position = "P"  },
+      { name = "Luis Medina",           jersey = "46", position = "P"  },
+      { name = "Luis Morales",          jersey = "19", position = "P"  },
+      { name = "Mason Barnett",         jersey = "63", position = "P"  },
+      { name = "Seth Johnson",          jersey = "52", position = "P"  },
+      { name = "Jack Perkins",          jersey = "50", position = "P"  },
+      { name = "Scott Blewett",         jersey = "49", position = "P"  },
+      { name = "Geoff Hartlieb",        jersey = "31", position = "P"  },
+      { name = "Elvis Alvarado",        jersey = "37", position = "P"  },
+      { name = "Chris Roycroft",        jersey = "56", position = "P"  },
+      { name = "Hayden Juenger",        jersey = "58", position = "P"  },
+      { name = "Gage Jump",             jersey = "61", position = "P"  },
+      { name = "Henry Baez",            jersey = "76", position = "P"  },
+      { name = "Kade Morris",           jersey = "67", position = "P"  },
+      { name = "Braden Nett",           jersey = "78", position = "P"  },
+      { name = "Hunter Bigge",          jersey = "",   position = "P"  },
+      { name = "Yunior Tur",            jersey = "70", position = "P"  },
     ]
   })
 }

@@ -32,7 +32,7 @@ module "al_west" {
   league_tag = cortex_catalog_entity.al_league.tag
   division   = "AL West"
   team_owners = {
-    "las-vegas-athletics" = cortex_catalog_entity.athletics_coaching_staff.tag
+    "las-vegas-athletics" = cortex_catalog_entity.athletics_roster.tag
   }
   teams = [
     { slug = "houston-astros",      name = "Houston Astros",      city = "Houston",   ballpark = "Minute Maid Park",   league = "AL", wins = 81, losses = 81 },
@@ -41,7 +41,7 @@ module "al_west" {
     { slug = "seattle-mariners",    name = "Seattle Mariners",    city = "Seattle",   ballpark = "T-Mobile Park",      league = "AL", wins = 76, losses = 86 },
     { slug = "texas-rangers",       name = "Texas Rangers",       city = "Arlington", ballpark = "Globe Life Field",   league = "AL", wins = 80, losses = 82 },
   ]
-  depends_on = [cortex_catalog_entity.athletics_coaching_staff]
+  depends_on = [cortex_catalog_entity.athletics_roster]
 }
 
 module "nl_east" {
