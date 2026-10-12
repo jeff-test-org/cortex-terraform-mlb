@@ -37,5 +37,13 @@ resource "cortex_catalog_entity" "teams" {
     losses   = each.value.losses
   })
 
+  owners = lookup(var.team_owners, each.value.slug, null) != null ? [
+    {
+      name     = var.team_owners[each.value.slug]
+      type     = "group"
+      provider = "CORTEX"
+    }
+  ] : null
+
   depends_on = [cortex_catalog_entity.division]
 }

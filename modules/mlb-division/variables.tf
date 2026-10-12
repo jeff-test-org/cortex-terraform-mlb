@@ -25,3 +25,9 @@ variable "teams" {
     losses   = number
   }))
 }
+
+variable "team_owners" {
+  description = "Optional map from team slug to Cortex team tag. Teams in this map will have that team set as owner."
+  type        = map(string)
+  default     = {}
+}
