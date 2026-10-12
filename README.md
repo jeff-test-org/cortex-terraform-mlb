@@ -47,12 +47,17 @@ mlb-2026 (Season)
 
 Before applying this Terraform project, ensure you have:
 
-1. **Terraform >= 1.5** — [Download](https://www.terraform.io/downloads.html)
-2. **cortexapps/cortex provider** — automatically downloaded during `terraform init`
+1. **Terraform >= 1.5** — [Download](https://developer.hashicorp.com/terraform/install)
+
+   ```
+   brew tap hashicorp/tap
+   brew install hashicorp/tap/terraform
+   ```
+3. **cortexapps/cortex provider** — automatically downloaded during `terraform init`
    - Current version constraint: `~> 0.1`
    - GitHub: [terraform-provider-cortex](https://github.com/cortexapps/terraform-provider-cortex)
-3. **Cortex API key** — obtain from your Cortex workspace
-4. **Cortex CLI** (optional but recommended) — for importing pre-existing entities into Terraform state
+4. **Cortex API key** — obtain from your Cortex workspace
+5. **Cortex CLI** (optional but recommended) — for importing pre-existing entities into Terraform state
 
 ### Getting Your Cortex API Key
 
