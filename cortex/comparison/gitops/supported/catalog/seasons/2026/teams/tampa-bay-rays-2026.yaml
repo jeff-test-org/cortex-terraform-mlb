@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Tampa Bay Rays
+  x-cortex-tag: tampa-bay-rays-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Tampa Bay Rays — AL East 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: al-east-2026
+  x-cortex-custom-metadata:
+    city: St. Petersburg
+    ballpark: Tropicana Field
+    league: AL
+    division: AL East
+    year: "2026"
+    wins: 98
+    losses: 64

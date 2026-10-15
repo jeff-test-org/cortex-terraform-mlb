@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Chicago Cubs
+  x-cortex-tag: chicago-cubs-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Chicago Cubs — NL Central 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: nl-central-2026
+  x-cortex-custom-metadata:
+    city: Chicago
+    ballpark: Wrigley Field
+    league: NL
+    division: NL Central
+    year: "2026"
+    wins: 89
+    losses: 73

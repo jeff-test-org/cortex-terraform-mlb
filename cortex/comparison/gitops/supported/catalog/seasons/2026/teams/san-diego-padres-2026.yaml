@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: San Diego Padres
+  x-cortex-tag: san-diego-padres-2026
+  x-cortex-type: mlb
+  x-cortex-description: "San Diego Padres — NL West 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: nl-west-2026
+  x-cortex-custom-metadata:
+    city: San Diego
+    ballpark: Petco Park
+    league: NL
+    division: NL West
+    year: "2026"
+    wins: 91
+    losses: 71

@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 NL Strikeout Leaders
+  x-cortex-tag: 2026-nl-leader-strikeouts
+  x-cortex-type: mlb-leader
+  x-cortex-description: "National League strikeout statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: K
+    season: 2026
+    league: NL
+    leaders:
+      - rank: 1
+        player: Jacob Misiorowski
+        team: Milwaukee Brewers
+        value: "252"
+      - rank: 2
+        player: Cristopher Sanchez
+        team: Philadelphia Phillies
+        value: "231"
+      - rank: 3
+        player: Jesus Luzardo
+        team: Philadelphia Phillies
+        value: "221"
+      - rank: 4
+        player: Cade Cavalli
+        team: Washington Nationals
+        value: "200"
+      - rank: 4
+        player: Chris Sale
+        team: Atlanta Braves
+        value: "200"
+      - rank: 4
+        player: Paul Skenes
+        team: Pittsburgh Pirates
+        value: "200"
+      - rank: 7
+        player: Nolan McLean
+        team: New York Mets
+        value: "194"
+      - rank: 8
+        player: Zack Wheeler
+        team: Philadelphia Phillies
+        value: "193"
+      - rank: 9
+        player: Chase Burns
+        team: Cincinnati Reds
+        value: "185"
+      - rank: 10
+        player: Yoshinobu Yamamoto
+        team: Los Angeles Dodgers
+        value: "182"
+  x-cortex-custom-metadata:
+    stats:
+      category: K
+      season: 2026
+      league: NL
+      leaders:
+        - rank: 1
+          player: Jacob Misiorowski
+          team: Milwaukee Brewers
+          value: "252"
+        - rank: 2
+          player: Cristopher Sanchez
+          team: Philadelphia Phillies
+          value: "231"
+        - rank: 3
+          player: Jesus Luzardo
+          team: Philadelphia Phillies
+          value: "221"
+        - rank: 4
+          player: Cade Cavalli
+          team: Washington Nationals
+          value: "200"
+        - rank: 4
+          player: Chris Sale
+          team: Atlanta Braves
+          value: "200"
+        - rank: 4
+          player: Paul Skenes
+          team: Pittsburgh Pirates
+          value: "200"
+        - rank: 7
+          player: Nolan McLean
+          team: New York Mets
+          value: "194"
+        - rank: 8
+          player: Zack Wheeler
+          team: Philadelphia Phillies
+          value: "193"
+        - rank: 9
+          player: Chase Burns
+          team: Cincinnati Reds
+          value: "185"
+        - rank: 10
+          player: Yoshinobu Yamamoto
+          team: Los Angeles Dodgers
+          value: "182"

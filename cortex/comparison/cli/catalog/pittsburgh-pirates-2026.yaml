@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Pittsburgh Pirates
+  x-cortex-tag: pittsburgh-pirates-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Pittsburgh Pirates — NL Central 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: nl-central-2026
+  x-cortex-custom-metadata:
+    city: Pittsburgh
+    ballpark: PNC Park
+    league: NL
+    division: NL Central
+    year: "2026"
+    wins: 82
+    losses: 80

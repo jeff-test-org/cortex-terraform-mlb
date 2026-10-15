@@ -1,0 +1,10 @@
+openapi: 3.0.1
+info:
+  title: NL East 2026
+  x-cortex-tag: nl-east-2026
+  x-cortex-type: mlb
+  x-cortex-description: "NL East — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-division-2026
+  x-cortex-parents:
+    - tag: nl-2026

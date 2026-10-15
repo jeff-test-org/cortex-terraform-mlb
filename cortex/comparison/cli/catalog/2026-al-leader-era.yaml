@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 AL ERA Leaders
+  x-cortex-tag: 2026-al-leader-era
+  x-cortex-type: mlb-leader
+  x-cortex-description: "American League ERA statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: ERA
+    season: 2026
+    league: AL
+    leaders:
+      - rank: 1
+        player: Cam Schlittler
+        team: New York Yankees
+        value: "1.95"
+      - rank: 2
+        player: Dylan Cease
+        team: Toronto Blue Jays
+        value: "2.40"
+      - rank: 3
+        player: Parker Messick
+        team: Cleveland Guardians
+        value: "2.56"
+      - rank: 4
+        player: Drew Rasmussen
+        team: Tampa Bay Rays
+        value: "2.67"
+      - rank: 5
+        player: Sonny Gray
+        team: Boston Red Sox
+        value: "2.72"
+      - rank: 6
+        player: Nick Martinez
+        team: Tampa Bay Rays
+        value: "3.10"
+      - rank: 7
+        player: Michael Wacha
+        team: Kansas City Royals
+        value: "3.32"
+      - rank: 8
+        player: Sean Burke
+        team: Chicago White Sox
+        value: "3.34"
+      - rank: 9
+        player: Reid Detmers
+        team: Los Angeles Angels
+        value: "3.36"
+      - rank: 10
+        player: Logan Gilbert
+        team: Seattle Mariners
+        value: "3.73"
+  x-cortex-custom-metadata:
+    stats:
+      category: ERA
+      season: 2026
+      league: AL
+      leaders:
+        - rank: 1
+          player: Cam Schlittler
+          team: New York Yankees
+          value: "1.95"
+        - rank: 2
+          player: Dylan Cease
+          team: Toronto Blue Jays
+          value: "2.40"
+        - rank: 3
+          player: Parker Messick
+          team: Cleveland Guardians
+          value: "2.56"
+        - rank: 4
+          player: Drew Rasmussen
+          team: Tampa Bay Rays
+          value: "2.67"
+        - rank: 5
+          player: Sonny Gray
+          team: Boston Red Sox
+          value: "2.72"
+        - rank: 6
+          player: Nick Martinez
+          team: Tampa Bay Rays
+          value: "3.10"
+        - rank: 7
+          player: Michael Wacha
+          team: Kansas City Royals
+          value: "3.32"
+        - rank: 8
+          player: Sean Burke
+          team: Chicago White Sox
+          value: "3.34"
+        - rank: 9
+          player: Reid Detmers
+          team: Los Angeles Angels
+          value: "3.36"
+        - rank: 10
+          player: Logan Gilbert
+          team: Seattle Mariners
+          value: "3.73"

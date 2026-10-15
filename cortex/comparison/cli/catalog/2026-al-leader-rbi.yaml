@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 AL RBI Leaders
+  x-cortex-tag: 2026-al-leader-rbi
+  x-cortex-type: mlb-leader
+  x-cortex-description: "American League RBI statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: RBI
+    season: 2026
+    league: AL
+    leaders:
+      - rank: 1
+        player: Pete Alonso
+        team: Baltimore Orioles
+        value: "113"
+      - rank: 2
+        player: Yordan Alvarez
+        team: Houston Astros
+        value: "106"
+      - rank: 3
+        player: Junior Caminero
+        team: Tampa Bay Rays
+        value: "101"
+      - rank: 4
+        player: Ben Rice
+        team: New York Yankees
+        value: "97"
+      - rank: 5
+        player: Josh Bell
+        team: Minnesota Twins
+        value: "96"
+      - rank: 6
+        player: Jo Adell
+        team: Cleveland Guardians
+        value: "94"
+      - rank: 6
+        player: Isaac Paredes
+        team: Houston Astros
+        value: "94"
+      - rank: 8
+        player: Miguel Vargas
+        team: Chicago White Sox
+        value: "93"
+      - rank: 9
+        player: Jonathan Aranda
+        team: Tampa Bay Rays
+        value: "92"
+      - rank: 9
+        player: Kazuma Okamoto
+        team: Toronto Blue Jays
+        value: "92"
+  x-cortex-custom-metadata:
+    stats:
+      category: RBI
+      season: 2026
+      league: AL
+      leaders:
+        - rank: 1
+          player: Pete Alonso
+          team: Baltimore Orioles
+          value: "113"
+        - rank: 2
+          player: Yordan Alvarez
+          team: Houston Astros
+          value: "106"
+        - rank: 3
+          player: Junior Caminero
+          team: Tampa Bay Rays
+          value: "101"
+        - rank: 4
+          player: Ben Rice
+          team: New York Yankees
+          value: "97"
+        - rank: 5
+          player: Josh Bell
+          team: Minnesota Twins
+          value: "96"
+        - rank: 6
+          player: Jo Adell
+          team: Cleveland Guardians
+          value: "94"
+        - rank: 6
+          player: Isaac Paredes
+          team: Houston Astros
+          value: "94"
+        - rank: 8
+          player: Miguel Vargas
+          team: Chicago White Sox
+          value: "93"
+        - rank: 9
+          player: Jonathan Aranda
+          team: Tampa Bay Rays
+          value: "92"
+        - rank: 9
+          player: Kazuma Okamoto
+          team: Toronto Blue Jays
+          value: "92"

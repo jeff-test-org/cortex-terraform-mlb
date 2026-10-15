@@ -1,0 +1,10 @@
+openapi: 3.0.1
+info:
+  title: AL Central 2026
+  x-cortex-tag: al-central-2026
+  x-cortex-type: mlb
+  x-cortex-description: "AL Central — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-division-2026
+  x-cortex-parents:
+    - tag: al-2026

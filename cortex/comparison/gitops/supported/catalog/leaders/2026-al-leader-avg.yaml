@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 AL Batting Average Leaders
+  x-cortex-tag: 2026-al-leader-avg
+  x-cortex-type: mlb-leader
+  x-cortex-description: "American League batting average statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: AVG
+    season: 2026
+    league: AL
+    leaders:
+      - rank: 1
+        player: Michael Arroyo
+        team: Seattle Mariners
+        value: ".371"
+      - rank: 2
+        player: Joshua Kuroda-Grauer
+        team: Athletics
+        value: ".366"
+      - rank: 3
+        player: Gustavo Campero
+        team: Los Angeles Angels
+        value: ".364"
+      - rank: 4
+        player: Michael Stefanic
+        team: Athletics
+        value: ".346"
+      - rank: 5
+        player: Eduardo Valencia
+        team: Detroit Tigers
+        value: ".341"
+      - rank: 6
+        player: Omar Martinez
+        team: Los Angeles Angels
+        value: ".333"
+      - rank: 7
+        player: Brett Bateman
+        team: Toronto Blue Jays
+        value: ".329"
+      - rank: 8
+        player: Yordan Alvarez
+        team: Houston Astros
+        value: ".316"
+      - rank: 9
+        player: Trey Mancini
+        team: Los Angeles Angels
+        value: ".308"
+      - rank: 10
+        player: Chandler Simpson
+        team: Tampa Bay Rays
+        value: ".306"
+  x-cortex-custom-metadata:
+    stats:
+      category: AVG
+      season: 2026
+      league: AL
+      leaders:
+        - rank: 1
+          player: Michael Arroyo
+          team: Seattle Mariners
+          value: ".371"
+        - rank: 2
+          player: Joshua Kuroda-Grauer
+          team: Athletics
+          value: ".366"
+        - rank: 3
+          player: Gustavo Campero
+          team: Los Angeles Angels
+          value: ".364"
+        - rank: 4
+          player: Michael Stefanic
+          team: Athletics
+          value: ".346"
+        - rank: 5
+          player: Eduardo Valencia
+          team: Detroit Tigers
+          value: ".341"
+        - rank: 6
+          player: Omar Martinez
+          team: Los Angeles Angels
+          value: ".333"
+        - rank: 7
+          player: Brett Bateman
+          team: Toronto Blue Jays
+          value: ".329"
+        - rank: 8
+          player: Yordan Alvarez
+          team: Houston Astros
+          value: ".316"
+        - rank: 9
+          player: Trey Mancini
+          team: Los Angeles Angels
+          value: ".308"
+        - rank: 10
+          player: Chandler Simpson
+          team: Tampa Bay Rays
+          value: ".306"

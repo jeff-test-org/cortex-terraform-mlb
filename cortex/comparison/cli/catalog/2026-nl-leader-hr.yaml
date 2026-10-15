@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 NL Home Run Leaders
+  x-cortex-tag: 2026-nl-leader-hr
+  x-cortex-type: mlb-leader
+  x-cortex-description: "National League home run statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: HR
+    season: 2026
+    league: NL
+    leaders:
+      - rank: 1
+        player: Pete Crow-Armstrong
+        team: Chicago Cubs
+        value: "45"
+      - rank: 1
+        player: Kyle Schwarber
+        team: Philadelphia Phillies
+        value: "45"
+      - rank: 3
+        player: Hunter Goodman
+        team: Colorado Rockies
+        value: "41"
+      - rank: 3
+        player: Matt Olson
+        team: Atlanta Braves
+        value: "41"
+      - rank: 5
+        player: Rafael Devers
+        team: San Francisco Giants
+        value: "37"
+      - rank: 6
+        player: Brandon Lowe
+        team: Pittsburgh Pirates
+        value: "35"
+      - rank: 7
+        player: CJ Abrams
+        team: Washington Nationals
+        value: "33"
+      - rank: 8
+        player: Sal Stewart
+        team: Cincinnati Reds
+        value: "32"
+      - rank: 9
+        player: Nolan Arenado
+        team: Arizona Diamondbacks
+        value: "30"
+      - rank: 9
+        player: Elly De La Cruz
+        team: Cincinnati Reds
+        value: "30"
+  x-cortex-custom-metadata:
+    stats:
+      category: HR
+      season: 2026
+      league: NL
+      leaders:
+        - rank: 1
+          player: Pete Crow-Armstrong
+          team: Chicago Cubs
+          value: "45"
+        - rank: 1
+          player: Kyle Schwarber
+          team: Philadelphia Phillies
+          value: "45"
+        - rank: 3
+          player: Hunter Goodman
+          team: Colorado Rockies
+          value: "41"
+        - rank: 3
+          player: Matt Olson
+          team: Atlanta Braves
+          value: "41"
+        - rank: 5
+          player: Rafael Devers
+          team: San Francisco Giants
+          value: "37"
+        - rank: 6
+          player: Brandon Lowe
+          team: Pittsburgh Pirates
+          value: "35"
+        - rank: 7
+          player: CJ Abrams
+          team: Washington Nationals
+          value: "33"
+        - rank: 8
+          player: Sal Stewart
+          team: Cincinnati Reds
+          value: "32"
+        - rank: 9
+          player: Nolan Arenado
+          team: Arizona Diamondbacks
+          value: "30"
+        - rank: 9
+          player: Elly De La Cruz
+          team: Cincinnati Reds
+          value: "30"

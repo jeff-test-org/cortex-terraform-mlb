@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 NL Batting Average Leaders
+  x-cortex-tag: 2026-nl-leader-avg
+  x-cortex-type: mlb-leader
+  x-cortex-description: "National League batting average statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: AVG
+    season: 2026
+    league: NL
+    leaders:
+      - rank: 1
+        player: Gabriel Moreno
+        team: Arizona Diamondbacks
+        value: ".311"
+      - rank: 2
+        player: Luis Arraez
+        team: Philadelphia Phillies
+        value: ".310"
+      - rank: 3
+        player: Otto Lopez
+        team: Miami Marlins
+        value: ".305"
+      - rank: 4
+        player: Nick Gonzales
+        team: Pittsburgh Pirates
+        value: ".303"
+      - rank: 5
+        player: TJ Rumfield
+        team: Colorado Rockies
+        value: ".300"
+      - rank: 6
+        player: Michael Harris II
+        team: Atlanta Braves
+        value: ".294"
+      - rank: 7
+        player: Jackson Chourio
+        team: Milwaukee Brewers
+        value: ".291"
+      - rank: 8
+        player: Jake McCarthy
+        team: Colorado Rockies
+        value: ".291"
+      - rank: 9
+        player: Fernando Tatis Jr.
+        team: San Diego Padres
+        value: ".289"
+      - rank: 10
+        player: Freddie Freeman
+        team: Los Angeles Dodgers
+        value: ".288"
+  x-cortex-custom-metadata:
+    stats:
+      category: AVG
+      season: 2026
+      league: NL
+      leaders:
+        - rank: 1
+          player: Gabriel Moreno
+          team: Arizona Diamondbacks
+          value: ".311"
+        - rank: 2
+          player: Luis Arraez
+          team: Philadelphia Phillies
+          value: ".310"
+        - rank: 3
+          player: Otto Lopez
+          team: Miami Marlins
+          value: ".305"
+        - rank: 4
+          player: Nick Gonzales
+          team: Pittsburgh Pirates
+          value: ".303"
+        - rank: 5
+          player: TJ Rumfield
+          team: Colorado Rockies
+          value: ".300"
+        - rank: 6
+          player: Michael Harris II
+          team: Atlanta Braves
+          value: ".294"
+        - rank: 7
+          player: Jackson Chourio
+          team: Milwaukee Brewers
+          value: ".291"
+        - rank: 8
+          player: Jake McCarthy
+          team: Colorado Rockies
+          value: ".291"
+        - rank: 9
+          player: Fernando Tatis Jr.
+          team: San Diego Padres
+          value: ".289"
+        - rank: 10
+          player: Freddie Freeman
+          team: Los Angeles Dodgers
+          value: ".288"

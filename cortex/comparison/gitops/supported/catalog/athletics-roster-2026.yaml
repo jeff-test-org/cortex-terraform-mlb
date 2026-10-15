@@ -1,0 +1,133 @@
+openapi: 3.0.1
+info:
+  title: 2026 Athletics Roster
+  x-cortex-tag: athletics-roster-2026
+  x-cortex-type: team
+  x-cortex-description: "Active roster for the 2026 Athletics (Sutter Health Park, Sacramento)."
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-custom-metadata:
+    mlb_team_id: 133
+    abbreviation: ATH
+    season: 2026
+    roster:
+      - name: Shea Langeliers
+        jersey: "23"
+        position: C
+      - name: Jonah Heim
+        jersey: "15"
+        position: C
+      - name: Brian Serven
+        jersey: "10"
+        position: C
+      - name: Tommy White
+        jersey: "47"
+        position: 1B
+      - name: Jeff McNeil
+        jersey: "22"
+        position: 2B
+      - name: Donovan Walton
+        jersey: "29"
+        position: 2B
+      - name: Michael Stefanic
+        jersey: "17"
+        position: 2B
+      - name: Zack Gelof
+        jersey: "20"
+        position: 3B
+      - name: Max Muncy
+        jersey: "3"
+        position: 3B
+      - name: Joshua Kuroda-Grauer
+        jersey: "44"
+        position: 3B
+      - name: Alika Williams
+        jersey: "12"
+        position: SS
+      - name: Darell Hernaiz
+        jersey: "2"
+        position: SS
+      - name: Lawrence Butler
+        jersey: "4"
+        position: RF
+      - name: Denzel Clarke
+        jersey: "1"
+        position: CF
+      - name: Henry Bolte
+        jersey: "33"
+        position: CF
+      - name: Carlos Cortes
+        jersey: "26"
+        position: RF
+      - name: Johnathan Rodriguez
+        jersey: ""
+        position: RF
+      - name: Jeffrey Springs
+        jersey: "59"
+        position: P
+      - name: Joey Estes
+        jersey: "68"
+        position: P
+      - name: Drew Rom
+        jersey: "39"
+        position: P
+      - name: Hogan Harris
+        jersey: "36"
+        position: P
+      - name: Brady Basso
+        jersey: "66"
+        position: P
+      - name: Joe Rock
+        jersey: "30"
+        position: P
+      - name: Jacob Lopez
+        jersey: "57"
+        position: P
+      - name: Luis Medina
+        jersey: "46"
+        position: P
+      - name: Luis Morales
+        jersey: "19"
+        position: P
+      - name: Mason Barnett
+        jersey: "63"
+        position: P
+      - name: Seth Johnson
+        jersey: "52"
+        position: P
+      - name: Jack Perkins
+        jersey: "50"
+        position: P
+      - name: Scott Blewett
+        jersey: "49"
+        position: P
+      - name: Geoff Hartlieb
+        jersey: "31"
+        position: P
+      - name: Elvis Alvarado
+        jersey: "37"
+        position: P
+      - name: Chris Roycroft
+        jersey: "56"
+        position: P
+      - name: Hayden Juenger
+        jersey: "58"
+        position: P
+      - name: Gage Jump
+        jersey: "61"
+        position: P
+      - name: Henry Baez
+        jersey: "76"
+        position: P
+      - name: Kade Morris
+        jersey: "67"
+        position: P
+      - name: Braden Nett
+        jersey: "78"
+        position: P
+      - name: Hunter Bigge
+        jersey: ""
+        position: P
+      - name: Yunior Tur
+        jersey: "70"
+        position: P

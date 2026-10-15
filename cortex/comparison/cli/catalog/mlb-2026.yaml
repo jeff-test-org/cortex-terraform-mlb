@@ -1,0 +1,8 @@
+openapi: 3.0.1
+info:
+  title: MLB 2026
+  x-cortex-tag: mlb-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Major League Baseball — 2026 Season"
+  x-cortex-groups:
+    - mlb-season

@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 AL Win Leaders
+  x-cortex-tag: 2026-al-leader-wins
+  x-cortex-type: mlb-leader
+  x-cortex-description: "American League pitching win statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: W
+    season: 2026
+    league: AL
+    leaders:
+      - rank: 1
+        player: Sonny Gray
+        team: Boston Red Sox
+        value: "18"
+      - rank: 2
+        player: Drew Rasmussen
+        team: Tampa Bay Rays
+        value: "16"
+      - rank: 3
+        player: Nick Martinez
+        team: Tampa Bay Rays
+        value: "15"
+      - rank: 4
+        player: Cam Schlittler
+        team: New York Yankees
+        value: "14"
+      - rank: 4
+        player: Gavin Williams
+        team: Cleveland Guardians
+        value: "14"
+      - rank: 6
+        player: Taj Bradley
+        team: Minnesota Twins
+        value: "12"
+      - rank: 6
+        player: Logan Gilbert
+        team: Seattle Mariners
+        value: "12"
+      - rank: 6
+        player: Parker Messick
+        team: Cleveland Guardians
+        value: "12"
+      - rank: 6
+        player: Jose Soriano
+        team: Toronto Blue Jays
+        value: "12"
+      - rank: 6
+        player: Bryan Woo
+        team: Seattle Mariners
+        value: "12"
+  x-cortex-custom-metadata:
+    stats:
+      category: W
+      season: 2026
+      league: AL
+      leaders:
+        - rank: 1
+          player: Sonny Gray
+          team: Boston Red Sox
+          value: "18"
+        - rank: 2
+          player: Drew Rasmussen
+          team: Tampa Bay Rays
+          value: "16"
+        - rank: 3
+          player: Nick Martinez
+          team: Tampa Bay Rays
+          value: "15"
+        - rank: 4
+          player: Cam Schlittler
+          team: New York Yankees
+          value: "14"
+        - rank: 4
+          player: Gavin Williams
+          team: Cleveland Guardians
+          value: "14"
+        - rank: 6
+          player: Taj Bradley
+          team: Minnesota Twins
+          value: "12"
+        - rank: 6
+          player: Logan Gilbert
+          team: Seattle Mariners
+          value: "12"
+        - rank: 6
+          player: Parker Messick
+          team: Cleveland Guardians
+          value: "12"
+        - rank: 6
+          player: Jose Soriano
+          team: Toronto Blue Jays
+          value: "12"
+        - rank: 6
+          player: Bryan Woo
+          team: Seattle Mariners
+          value: "12"

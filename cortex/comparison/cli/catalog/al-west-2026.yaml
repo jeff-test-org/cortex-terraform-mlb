@@ -1,0 +1,10 @@
+openapi: 3.0.1
+info:
+  title: AL West 2026
+  x-cortex-tag: al-west-2026
+  x-cortex-type: mlb
+  x-cortex-description: "AL West — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-division-2026
+  x-cortex-parents:
+    - tag: al-2026

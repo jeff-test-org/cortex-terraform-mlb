@@ -17,7 +17,5 @@ resource "cortex_relationship_type" "mlb_to_leader" {
     types   = ["mlb-leader"]
   }
 
-  inheritances = []
-
   depends_on = [cortex_resource_definition.mlb_leader]
 }

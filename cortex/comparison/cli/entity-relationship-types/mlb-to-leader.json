@@ -1,0 +1,17 @@
+{
+  "tag": "mlb-to-leader",
+  "name": "Leaders",
+  "description": "Links an MLB season entity to its statistical leader boards.",
+  "allowCycles": false,
+  "isSingleSource": false,
+  "isSingleDestination": false,
+  "definitionLocation": "SOURCE",
+  "sourcesFilter": {
+    "include": true,
+    "types": ["mlb"]
+  },
+  "destinationsFilter": {
+    "include": true,
+    "types": ["mlb-leader"]
+  }
+}

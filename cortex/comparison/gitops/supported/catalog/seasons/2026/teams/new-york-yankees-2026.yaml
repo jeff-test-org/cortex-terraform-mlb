@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: New York Yankees
+  x-cortex-tag: new-york-yankees-2026
+  x-cortex-type: mlb
+  x-cortex-description: "New York Yankees — AL East 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: al-east-2026
+  x-cortex-custom-metadata:
+    city: Bronx
+    ballpark: Yankee Stadium
+    league: AL
+    division: AL East
+    year: "2026"
+    wins: 93
+    losses: 68

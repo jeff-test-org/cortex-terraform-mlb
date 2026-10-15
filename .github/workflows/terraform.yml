@@ -53,9 +53,9 @@ jobs:
       # The published cortexapps/cortex provider does not yet include the
       # cortex_catalog resource. Build it locally from the feature branch.
       # This step can be removed once the resource is merged and released.
-      - name: Build cortex provider from feature/catalog-resource
+      - name: Build cortex provider from main
         run: |
-          git clone --branch feature/catalog-resource --depth 1 \
+          git clone --branch main --depth 1 \
             https://github.com/jeff-test-org/terraform-provider-cortex.git \
             /tmp/terraform-provider-cortex
           cd /tmp/terraform-provider-cortex

@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Texas Rangers
+  x-cortex-tag: texas-rangers-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Texas Rangers — AL West 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: al-west-2026
+  x-cortex-custom-metadata:
+    city: Arlington
+    ballpark: Globe Life Field
+    league: AL
+    division: AL West
+    year: "2026"
+    wins: 80
+    losses: 82

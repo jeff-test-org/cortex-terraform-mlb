@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: St. Louis Cardinals
+  x-cortex-tag: st-louis-cardinals-2026
+  x-cortex-type: mlb
+  x-cortex-description: "St. Louis Cardinals — NL Central 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: nl-central-2026
+  x-cortex-custom-metadata:
+    city: St. Louis
+    ballpark: Busch Stadium
+    league: NL
+    division: NL Central
+    year: "2026"
+    wins: 77
+    losses: 85

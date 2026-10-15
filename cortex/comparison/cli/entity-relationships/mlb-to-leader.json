@@ -1,0 +1,26 @@
+[
+  {
+    "sourceEntityTag": "al-2026",
+    "relationshipTypeTag": "mlb-to-leader",
+    "destinationEntityTags": [
+      "2026-al-leader-hr",
+      "2026-al-leader-rbi",
+      "2026-al-leader-avg",
+      "2026-al-leader-wins",
+      "2026-al-leader-era",
+      "2026-al-leader-strikeouts"
+    ]
+  },
+  {
+    "sourceEntityTag": "nl-2026",
+    "relationshipTypeTag": "mlb-to-leader",
+    "destinationEntityTags": [
+      "2026-nl-leader-hr",
+      "2026-nl-leader-rbi",
+      "2026-nl-leader-avg",
+      "2026-nl-leader-wins",
+      "2026-nl-leader-era",
+      "2026-nl-leader-strikeouts"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Chicago White Sox
+  x-cortex-tag: chicago-white-sox-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Chicago White Sox — AL Central 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: al-central-2026
+  x-cortex-custom-metadata:
+    city: Chicago
+    ballpark: Guaranteed Rate Field
+    league: AL
+    division: AL Central
+    year: "2026"
+    wins: 84
+    losses: 78

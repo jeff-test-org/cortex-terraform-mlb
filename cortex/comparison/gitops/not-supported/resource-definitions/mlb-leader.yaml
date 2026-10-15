@@ -1,0 +1,38 @@
+# Resource Definition: mlb-leader
+#
+# NOT SUPPORTED in GitOps — resource definitions can only be created via the
+# Cortex API or UI, not through the GitOps entity sync.
+#
+# Equivalent API call:
+#   POST /api/v1/catalog/definitions
+#
+# Terraform equivalent: resource_definition.tf → cortex_resource_definition.mlb_leader
+
+tag: mlb-leader
+name: MLB Statistical Leader
+description: "Top 10 leaders for an MLB statistical category in a given season."
+schema:
+  type: object
+  properties:
+    category:
+      type: string
+      description: "Statistical category (HR, RBI, AVG, Wins, ERA, K)"
+    season:
+      type: integer
+      description: "MLB season year"
+    league:
+      type: string
+      enum: [AL, NL]
+    leaders:
+      type: array
+      items:
+        type: object
+        properties:
+          rank:
+            type: integer
+          player:
+            type: string
+          team:
+            type: string
+          value:
+            type: string

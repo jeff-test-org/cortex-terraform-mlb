@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 AL Home Run Leaders
+  x-cortex-tag: 2026-al-leader-hr
+  x-cortex-type: mlb-leader
+  x-cortex-description: "American League home run statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: HR
+    season: 2026
+    league: AL
+    leaders:
+      - rank: 1
+        player: Pete Alonso
+        team: Baltimore Orioles
+        value: "43"
+      - rank: 2
+        player: Yordan Alvarez
+        team: Houston Astros
+        value: "42"
+      - rank: 2
+        player: Junior Caminero
+        team: Tampa Bay Rays
+        value: "42"
+      - rank: 4
+        player: Ben Rice
+        team: New York Yankees
+        value: "41"
+      - rank: 5
+        player: Munetaka Murakami
+        team: Chicago White Sox
+        value: "35"
+      - rank: 6
+        player: Kazuma Okamoto
+        team: Toronto Blue Jays
+        value: "33"
+      - rank: 6
+        player: Miguel Vargas
+        team: Chicago White Sox
+        value: "33"
+      - rank: 8
+        player: Colson Montgomery
+        team: Chicago White Sox
+        value: "31"
+      - rank: 9
+        player: Christian Walker
+        team: Houston Astros
+        value: "29"
+      - rank: 10
+        player: Jake Burger
+        team: Texas Rangers
+        value: "28"
+  x-cortex-custom-metadata:
+    stats:
+      category: HR
+      season: 2026
+      league: AL
+      leaders:
+        - rank: 1
+          player: Pete Alonso
+          team: Baltimore Orioles
+          value: "43"
+        - rank: 2
+          player: Yordan Alvarez
+          team: Houston Astros
+          value: "42"
+        - rank: 2
+          player: Junior Caminero
+          team: Tampa Bay Rays
+          value: "42"
+        - rank: 4
+          player: Ben Rice
+          team: New York Yankees
+          value: "41"
+        - rank: 5
+          player: Munetaka Murakami
+          team: Chicago White Sox
+          value: "35"
+        - rank: 6
+          player: Kazuma Okamoto
+          team: Toronto Blue Jays
+          value: "33"
+        - rank: 6
+          player: Miguel Vargas
+          team: Chicago White Sox
+          value: "33"
+        - rank: 8
+          player: Colson Montgomery
+          team: Chicago White Sox
+          value: "31"
+        - rank: 9
+          player: Christian Walker
+          team: Houston Astros
+          value: "29"
+        - rank: 10
+          player: Jake Burger
+          team: Texas Rangers
+          value: "28"

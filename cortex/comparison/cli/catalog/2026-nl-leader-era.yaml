@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 NL ERA Leaders
+  x-cortex-tag: 2026-nl-leader-era
+  x-cortex-type: mlb-leader
+  x-cortex-description: "National League ERA statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: ERA
+    season: 2026
+    league: NL
+    leaders:
+      - rank: 1
+        player: Jacob Misiorowski
+        team: Milwaukee Brewers
+        value: "1.80"
+      - rank: 2
+        player: Chris Sale
+        team: Atlanta Braves
+        value: "2.16"
+      - rank: 3
+        player: Yoshinobu Yamamoto
+        team: Los Angeles Dodgers
+        value: "2.53"
+      - rank: 4
+        player: Jesus Luzardo
+        team: Philadelphia Phillies
+        value: "2.86"
+      - rank: 5
+        player: Eduardo Rodriguez
+        team: Arizona Diamondbacks
+        value: "2.89"
+      - rank: 6
+        player: Cristopher Sanchez
+        team: Philadelphia Phillies
+        value: "2.91"
+      - rank: 7
+        player: Zack Wheeler
+        team: Philadelphia Phillies
+        value: "3.00"
+      - rank: 8
+        player: Cade Cavalli
+        team: Washington Nationals
+        value: "3.02"
+      - rank: 9
+        player: Nolan McLean
+        team: New York Mets
+        value: "3.16"
+      - rank: 10
+        player: Michael King
+        team: San Diego Padres
+        value: "3.21"
+  x-cortex-custom-metadata:
+    stats:
+      category: ERA
+      season: 2026
+      league: NL
+      leaders:
+        - rank: 1
+          player: Jacob Misiorowski
+          team: Milwaukee Brewers
+          value: "1.80"
+        - rank: 2
+          player: Chris Sale
+          team: Atlanta Braves
+          value: "2.16"
+        - rank: 3
+          player: Yoshinobu Yamamoto
+          team: Los Angeles Dodgers
+          value: "2.53"
+        - rank: 4
+          player: Jesus Luzardo
+          team: Philadelphia Phillies
+          value: "2.86"
+        - rank: 5
+          player: Eduardo Rodriguez
+          team: Arizona Diamondbacks
+          value: "2.89"
+        - rank: 6
+          player: Cristopher Sanchez
+          team: Philadelphia Phillies
+          value: "2.91"
+        - rank: 7
+          player: Zack Wheeler
+          team: Philadelphia Phillies
+          value: "3.00"
+        - rank: 8
+          player: Cade Cavalli
+          team: Washington Nationals
+          value: "3.02"
+        - rank: 9
+          player: Nolan McLean
+          team: New York Mets
+          value: "3.16"
+        - rank: 10
+          player: Michael King
+          team: San Diego Padres
+          value: "3.21"

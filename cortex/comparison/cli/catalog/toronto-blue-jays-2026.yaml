@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Toronto Blue Jays
+  x-cortex-tag: toronto-blue-jays-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Toronto Blue Jays — AL East 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: al-east-2026
+  x-cortex-custom-metadata:
+    city: Toronto
+    ballpark: Rogers Centre
+    league: AL
+    division: AL East
+    year: "2026"
+    wins: 79
+    losses: 83

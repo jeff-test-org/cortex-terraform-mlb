@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 NL RBI Leaders
+  x-cortex-tag: 2026-nl-leader-rbi
+  x-cortex-type: mlb-leader
+  x-cortex-description: "National League RBI statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: RBI
+    season: 2026
+    league: NL
+    leaders:
+      - rank: 1
+        player: Alec Burleson
+        team: St. Louis Cardinals
+        value: "116"
+      - rank: 2
+        player: Sal Stewart
+        team: Cincinnati Reds
+        value: "112"
+      - rank: 3
+        player: Pete Crow-Armstrong
+        team: Chicago Cubs
+        value: "107"
+      - rank: 4
+        player: CJ Abrams
+        team: Washington Nationals
+        value: "106"
+      - rank: 5
+        player: Jordan Walker
+        team: St. Louis Cardinals
+        value: "102"
+      - rank: 6
+        player: Brice Turang
+        team: Milwaukee Brewers
+        value: "100"
+      - rank: 7
+        player: Rafael Devers
+        team: San Francisco Giants
+        value: "98"
+      - rank: 8
+        player: Kyle Schwarber
+        team: Philadelphia Phillies
+        value: "97"
+      - rank: 9
+        player: Brandon Lowe
+        team: Pittsburgh Pirates
+        value: "96"
+      - rank: 10
+        player: William Contreras
+        team: Milwaukee Brewers
+        value: "94"
+  x-cortex-custom-metadata:
+    stats:
+      category: RBI
+      season: 2026
+      league: NL
+      leaders:
+        - rank: 1
+          player: Alec Burleson
+          team: St. Louis Cardinals
+          value: "116"
+        - rank: 2
+          player: Sal Stewart
+          team: Cincinnati Reds
+          value: "112"
+        - rank: 3
+          player: Pete Crow-Armstrong
+          team: Chicago Cubs
+          value: "107"
+        - rank: 4
+          player: CJ Abrams
+          team: Washington Nationals
+          value: "106"
+        - rank: 5
+          player: Jordan Walker
+          team: St. Louis Cardinals
+          value: "102"
+        - rank: 6
+          player: Brice Turang
+          team: Milwaukee Brewers
+          value: "100"
+        - rank: 7
+          player: Rafael Devers
+          team: San Francisco Giants
+          value: "98"
+        - rank: 8
+          player: Kyle Schwarber
+          team: Philadelphia Phillies
+          value: "97"
+        - rank: 9
+          player: Brandon Lowe
+          team: Pittsburgh Pirates
+          value: "96"
+        - rank: 10
+          player: William Contreras
+          team: Milwaukee Brewers
+          value: "94"

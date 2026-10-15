@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: Baltimore Orioles
+  x-cortex-tag: baltimore-orioles-2026
+  x-cortex-type: mlb
+  x-cortex-description: "Baltimore Orioles — AL East 2026"
+  x-cortex-groups:
+    - mlb-team-2026
+  x-cortex-parents:
+    - tag: al-east-2026
+  x-cortex-custom-metadata:
+    city: Baltimore
+    ballpark: Oriole Park at Camden Yards
+    league: AL
+    division: AL East
+    year: "2026"
+    wins: 79
+    losses: 82

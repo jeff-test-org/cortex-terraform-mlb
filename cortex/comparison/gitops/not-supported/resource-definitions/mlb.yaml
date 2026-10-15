@@ -1,0 +1,16 @@
+# Resource Definition: mlb
+#
+# NOT SUPPORTED in GitOps — resource definitions can only be created via the
+# Cortex API or UI, not through the GitOps entity sync.
+#
+# Equivalent API call:
+#   POST /api/v1/catalog/definitions
+#
+# Terraform equivalent: resource_definition.tf → cortex_resource_definition.mlb
+
+tag: mlb
+name: MLB
+description: "Major League Baseball entity type. Used for seasons, leagues, divisions, and teams."
+schema:
+  type: object
+  properties: {}

@@ -1,0 +1,99 @@
+openapi: 3.0.1
+info:
+  title: 2026 AL Strikeout Leaders
+  x-cortex-tag: 2026-al-leader-strikeouts
+  x-cortex-type: mlb-leader
+  x-cortex-description: "American League strikeout statistical leaders — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-leader-2026
+  x-cortex-definition:
+    category: K
+    season: 2026
+    league: AL
+    leaders:
+      - rank: 1
+        player: Gavin Williams
+        team: Cleveland Guardians
+        value: "248"
+      - rank: 2
+        player: Dylan Cease
+        team: Toronto Blue Jays
+        value: "239"
+      - rank: 2
+        player: Cam Schlittler
+        team: New York Yankees
+        value: "239"
+      - rank: 4
+        player: Reid Detmers
+        team: Los Angeles Angels
+        value: "211"
+      - rank: 5
+        player: Taj Bradley
+        team: Minnesota Twins
+        value: "205"
+      - rank: 5
+        player: Logan Gilbert
+        team: Seattle Mariners
+        value: "205"
+      - rank: 7
+        player: Jacob deGrom
+        team: Texas Rangers
+        value: "201"
+      - rank: 8
+        player: Parker Messick
+        team: Cleveland Guardians
+        value: "193"
+      - rank: 9
+        player: Sean Burke
+        team: Chicago White Sox
+        value: "185"
+      - rank: 10
+        player: Bryan Woo
+        team: Seattle Mariners
+        value: "175"
+  x-cortex-custom-metadata:
+    stats:
+      category: K
+      season: 2026
+      league: AL
+      leaders:
+        - rank: 1
+          player: Gavin Williams
+          team: Cleveland Guardians
+          value: "248"
+        - rank: 2
+          player: Dylan Cease
+          team: Toronto Blue Jays
+          value: "239"
+        - rank: 2
+          player: Cam Schlittler
+          team: New York Yankees
+          value: "239"
+        - rank: 4
+          player: Reid Detmers
+          team: Los Angeles Angels
+          value: "211"
+        - rank: 5
+          player: Taj Bradley
+          team: Minnesota Twins
+          value: "205"
+        - rank: 5
+          player: Logan Gilbert
+          team: Seattle Mariners
+          value: "205"
+        - rank: 7
+          player: Jacob deGrom
+          team: Texas Rangers
+          value: "201"
+        - rank: 8
+          player: Parker Messick
+          team: Cleveland Guardians
+          value: "193"
+        - rank: 9
+          player: Sean Burke
+          team: Chicago White Sox
+          value: "185"
+        - rank: 10
+          player: Bryan Woo
+          team: Seattle Mariners
+          value: "175"

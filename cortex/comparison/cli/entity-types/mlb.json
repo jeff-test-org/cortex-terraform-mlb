@@ -1,0 +1,9 @@
+{
+  "type": "mlb",
+  "name": "MLB",
+  "description": "Major League Baseball entity type. Used for seasons, leagues, divisions, and teams.",
+  "schema": {
+    "type": "object",
+    "properties": {}
+  }
+}

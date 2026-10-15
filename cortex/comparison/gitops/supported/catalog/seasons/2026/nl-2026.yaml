@@ -1,0 +1,23 @@
+openapi: 3.0.1
+info:
+  title: National League 2026
+  x-cortex-tag: nl-2026
+  x-cortex-type: mlb
+  x-cortex-description: "National League — MLB 2026 Season"
+  x-cortex-groups:
+    - mlb-league-2026
+  x-cortex-parents:
+    - tag: mlb-2026
+  x-cortex-relationships:
+    - tag: 2026-nl-leader-hr
+      type: mlb-to-leader
+    - tag: 2026-nl-leader-rbi
+      type: mlb-to-leader
+    - tag: 2026-nl-leader-avg
+      type: mlb-to-leader
+    - tag: 2026-nl-leader-wins
+      type: mlb-to-leader
+    - tag: 2026-nl-leader-era
+      type: mlb-to-leader
+    - tag: 2026-nl-leader-strikeouts
+      type: mlb-to-leader
